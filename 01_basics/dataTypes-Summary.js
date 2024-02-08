@@ -35,3 +35,17 @@ const myFunction = function(){
 console.log(typeof cartoons);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// Primitive DataTypes:
+// Number=>number
+// String=>string
+// Boolean=>boolean
+// null=>object
+// undefined=>undefined
+// Symbol=>symbol
+// BigInt=>bigint
+
+//Non-primitive DataTypes:
+// Arrays=>object
+// Function=>function
+// Object=>object
