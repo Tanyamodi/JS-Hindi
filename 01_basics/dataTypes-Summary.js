@@ -49,3 +49,35 @@ console.log(typeof cartoons);
 // Arrays=>object
 // Function=>function
 // Object=>object
+
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack (Primitive), Heap (Non-Primitive)
+
+
+//Stack mein copy milta hai
+let myname="tanyadelhi"
+
+let anothername = myname
+anothername = "tanya2021"
+
+console.log(myname);
+console.log(anothername);
+
+//Heap mein reference pass hota hai
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "tanya@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
