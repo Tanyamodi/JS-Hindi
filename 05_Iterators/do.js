@@ -1,4 +1,4 @@
-// while
+// while Loop
 let index = 0
 while (index<=10) {
     //console.log(`Value of index is ${index}`);
@@ -13,7 +13,7 @@ while (arr< myArray.length) {
     arr = arr+1;
 }
 
-// do-while --> kaam pehle hoga aur condition baad mein check hogi
+// do while Loop --> kaam pehle hoga aur condition baad mein check hogi
 let score = 11
 do{
     console.log(`Score is ${score}`);
